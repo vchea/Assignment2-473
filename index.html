@@ -1,0 +1,33 @@
+<!--Vimean Chea-->
+<!--CPSC 473-->
+<!--Homework #2-->
+<!DOCTYPE html>
+<html>
+<script src="mvc.js"></script>
+
+<head>
+  <title>Student Grade</title>
+  <link rel="stylesheet" href="design.css">
+
+</head>
+
+<body>
+  <div class="top-container">
+    <label id="LN"> Last Name: </label>
+    <input type="Text" id="LastName" />
+    <button onclick="studentView.render()"> Search</button>
+  </div>
+
+  <div class="flex-container">
+    <div id="StudentFound"><b>Student Found:</b></div>
+
+
+    <div id="getGrade">
+      <table id="myTable">
+      </table>
+      <br>
+    </div>
+  </div>
+</body>
+
+</html>
